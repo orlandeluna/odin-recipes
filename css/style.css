@@ -1,0 +1,37 @@
+h1,
+h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+li,
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  padding: 5px;
+}
+
+a:hover {
+  background-color: orange;
+}
+
+.recipe-link {
+  float: right;
+  margin-left: 30px;
+  margin-right: 30px;
+  list-style-type: none;
+}
+
+.recipes-list {
+  display: flex;
+  justify-content: center;
+}
+
